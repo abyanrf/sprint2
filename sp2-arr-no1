@@ -1,0 +1,7 @@
+
+var listDesaBantul =[
+    ['sradakan:','poncosari','trimurti'],
+    ['sanden;','gadingsaari','gadinharjo','srigading'],
+    ['kretek;','tortomulyo','parangtritis','donotirto']
+];
+console.log(listDesaBantul);
