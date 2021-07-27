@@ -1,0 +1,5 @@
+var reacNative=['hafif','dayat','wandi'];
+var reacJs =['yusuf','lutfi','tompel'];
+
+jsd=reacNative.concat(reacJs);
+console.log(jsd)
