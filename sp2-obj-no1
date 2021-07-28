@@ -1,6 +1,6 @@
 var car = {
     type:"Fiat", 
-    model:"500", 
+    model:500, 
     color:"white",
     start: function(){
         console.log('ini method')
@@ -12,7 +12,6 @@ var car = {
         console.log('ini method stop')
     }
 };
-
 console.log(car);
 
  var motor = {
@@ -20,14 +19,41 @@ console.log(car);
      model:'cb200',
      color:'blue',
      gasMaju:function(){
-         console.log('gas maju')
+         console.log('maju')
      },
      gasMundur:function(){
-         console.log('gas maju')
+         console.log('maju')
      },
      rem:function(){
          console.log('berhenti')
      }
  };
  console.log(motor);
+ var makanan ={
+    nama:'sate ayam',
+    caraMasak:'di bakar',
+    bumbu:'kacang'
+};
+console.log(makanan)
 
+var handphone ={
+    merk:'sony',
+    type:'z5',
+    warna:'hijau',
+    turnOff:function(){
+        console.log('power off')
+    },
+    turnOn:function(){
+        console.log('power on')
+    }
+
+};
+console.log(handphone)
+
+var pakaian ={
+    model:'kaos',
+    jenisKain:'katun',
+    warna:'hijau',
+    size:'32'
+};
+console.log(pakaian)
