@@ -1,0 +1,14 @@
+var orang ={
+    introduce:function(){
+        console.log('nama saya ' + this.name + ', ' + 'umur saya ' + this.age + ' tahun,' + 'alamat saya di ' + this.addres + ','+ 
+        'dan saya punya hobi yaitu ' + this.hobby );
+    }
+};
+
+var perkenalan = Object.create(orang);
+perkenalan.name = 'agus'
+perkenalan.age = 30
+perkenalan.addres = 'jln.malioboro,yogyakarta'
+perkenalan.hobby ='gaming'
+
+ perkenalan.introduce();
